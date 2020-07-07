@@ -29,7 +29,7 @@
                             break
                     }
                 } else if (logout) {
-                    vm.$message.show
+                    vm.$message.show('操作成功')
                 }
             })
         },
