@@ -41,8 +41,15 @@ export default [
                 name: 'EditPassword',
                 component: () => import('@/views/users/Password.vue'),
                 meta: { auth: true }
-              }
+              },
+              
         ]
     },
+    {
+        path: '/articles/create',
+        name: 'Create',
+        component: () => import('@/views/articles/Create'),
+        meta: { auth: true }
+    }
 
 ]
